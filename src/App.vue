@@ -9,6 +9,8 @@
 <MethodsWithParamComponent />
 <br /> <br />
 <EventsExamplesComponent />
+<br /> <br />
+<BindingGetInputValueComponent />
 </template>
 
 <script>
@@ -17,6 +19,7 @@ import HomeComponent from './components/HomeComponent.vue'
 import InterpolationAndDataComponent from './components/InterpolationAndData.vue'
 import MethodsWithParamComponent from './components/MethodsWithParamComponent.vue'
 import EventsExamplesComponent from './components/EventsExamplesComponent.vue'
+import BindingGetInputValueComponent from './components/BindingGetInputValueComponent.vue'
 
 export default {
     name: 'App',
@@ -25,7 +28,8 @@ export default {
         HomeComponent,
         InterpolationAndDataComponent,
         MethodsWithParamComponent,
-        EventsExamplesComponent
+        EventsExamplesComponent,
+        BindingGetInputValueComponent
     }
 }
 </script>
