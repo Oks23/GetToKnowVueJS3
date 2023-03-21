@@ -11,6 +11,8 @@
 <EventsExamplesComponent />
 <br /> <br />
 <BindingGetInputValueComponent />
+<br /> <br />
+<GetValueFromCheckboxRadiobtnComponent />
 </template>
 
 <script>
@@ -20,6 +22,7 @@ import InterpolationAndDataComponent from './components/InterpolationAndData.vue
 import MethodsWithParamComponent from './components/MethodsWithParamComponent.vue'
 import EventsExamplesComponent from './components/EventsExamplesComponent.vue'
 import BindingGetInputValueComponent from './components/BindingGetInputValueComponent.vue'
+import GetValueFromCheckboxRadiobtnComponent from './components/GetValueFromCheckboxRadiobtnComponent.vue'
 
 export default {
     name: 'App',
@@ -29,7 +32,8 @@ export default {
         InterpolationAndDataComponent,
         MethodsWithParamComponent,
         EventsExamplesComponent,
-        BindingGetInputValueComponent
+        BindingGetInputValueComponent,
+        GetValueFromCheckboxRadiobtnComponent
     }
 }
 </script>
