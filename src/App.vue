@@ -15,6 +15,8 @@
 <GetValueFromCheckboxRadiobtnComponent />
 <br /> <br />
 <ConditionalRenderingComponent />
+<br /> <br />
+<ForLoopAndListComponent />
 </template>
 
 <script>
@@ -26,6 +28,7 @@ import EventsExamplesComponent from './components/EventsExamplesComponent.vue'
 import BindingGetInputValueComponent from './components/BindingGetInputValueComponent.vue'
 import GetValueFromCheckboxRadiobtnComponent from './components/GetValueFromCheckboxRadiobtnComponent.vue'
 import ConditionalRenderingComponent from './components/ConditionalRenderingComponent.vue'
+import ForLoopAndListComponent from './components/ForLoopAndListComponent.vue'
 
 export default {
     name: 'App',
@@ -37,7 +40,8 @@ export default {
         EventsExamplesComponent,
         BindingGetInputValueComponent,
         GetValueFromCheckboxRadiobtnComponent,
-        ConditionalRenderingComponent
+        ConditionalRenderingComponent,
+        ForLoopAndListComponent
     }
 }
 </script>
