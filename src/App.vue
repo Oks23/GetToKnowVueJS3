@@ -13,6 +13,8 @@
 <BindingGetInputValueComponent />
 <br /> <br />
 <GetValueFromCheckboxRadiobtnComponent />
+<br /> <br />
+<ConditionalRenderingComponent />
 </template>
 
 <script>
@@ -23,6 +25,7 @@ import MethodsWithParamComponent from './components/MethodsWithParamComponent.vu
 import EventsExamplesComponent from './components/EventsExamplesComponent.vue'
 import BindingGetInputValueComponent from './components/BindingGetInputValueComponent.vue'
 import GetValueFromCheckboxRadiobtnComponent from './components/GetValueFromCheckboxRadiobtnComponent.vue'
+import ConditionalRenderingComponent from './components/ConditionalRenderingComponent.vue'
 
 export default {
     name: 'App',
@@ -33,7 +36,8 @@ export default {
         MethodsWithParamComponent,
         EventsExamplesComponent,
         BindingGetInputValueComponent,
-        GetValueFromCheckboxRadiobtnComponent
+        GetValueFromCheckboxRadiobtnComponent,
+        ConditionalRenderingComponent
     }
 }
 </script>
