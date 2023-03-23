@@ -11,6 +11,14 @@
 <EventsExamplesComponent />
 <br /> <br />
 <BindingGetInputValueComponent />
+<br /> <br />
+<GetValueFromCheckboxRadiobtnComponent />
+<br /> <br />
+<ConditionalRenderingComponent />
+<br /> <br />
+<ForLoopAndListComponent />
+<br /> <br />
+<ParentComponent />
 </template>
 
 <script>
@@ -20,6 +28,10 @@ import InterpolationAndDataComponent from './components/InterpolationAndData.vue
 import MethodsWithParamComponent from './components/MethodsWithParamComponent.vue'
 import EventsExamplesComponent from './components/EventsExamplesComponent.vue'
 import BindingGetInputValueComponent from './components/BindingGetInputValueComponent.vue'
+import GetValueFromCheckboxRadiobtnComponent from './components/GetValueFromCheckboxRadiobtnComponent.vue'
+import ConditionalRenderingComponent from './components/ConditionalRenderingComponent.vue'
+import ForLoopAndListComponent from './components/ForLoopAndListComponent.vue'
+import ParentComponent from './components/ParentComponent.vue'
 
 export default {
     name: 'App',
@@ -29,7 +41,11 @@ export default {
         InterpolationAndDataComponent,
         MethodsWithParamComponent,
         EventsExamplesComponent,
-        BindingGetInputValueComponent
+        BindingGetInputValueComponent,
+        GetValueFromCheckboxRadiobtnComponent,
+        ConditionalRenderingComponent,
+        ForLoopAndListComponent,
+        ParentComponent
     }
 }
 </script>
